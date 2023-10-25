@@ -11,8 +11,8 @@ WiFiClient client;
 DFRobot_MLX90614_I2C mlx;  // instantiate an object to drive our sensor
 //---------------------------
 const char *server = "api.thingspeak.com";
-const char *ssid = "Ở đây có👰‍♀️";  // replace with your WiFi SSID and WPA2 key
-const char *pass = "Tungtungtung";
+const char *ssid = "";  // replace with your WiFi SSID and WPA2 key
+const char *pass = "";
 const char *apiKey = "27JKXX1XXAF7JULC";  // Enter your Write API key from ThingSpeak
 unsigned long channelID = 2199351;        // Replace with your ThingSpeak channel ID
 const char *host = "192.168.0.101";
